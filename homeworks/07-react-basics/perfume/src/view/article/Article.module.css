@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+
+  width: 50%;
+  height: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 0px 15px 15px 0px;
+  padding: 20px;
+  width: 100%;
+}
+.header {
+  width: 80%;
+}
+.description {
+  width: 80%;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+  width: 80%;
+}
+
+.newprice {
+  display: flex;
+  justify-content: flex-start;
+  color: green;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.oldprice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: line-through;
+}

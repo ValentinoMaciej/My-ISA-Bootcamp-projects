@@ -1,0 +1,115 @@
+body {
+  padding-top: 65px;
+  background-color: olivedrab;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  background: #123123;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu a:nth-child(odd) {
+  color: red;
+}
+.menu a:nth-child(2) {
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu li {
+  list-style-type: none;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+#about {
+  text-align: center;
+}
+
+.about-company {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-family: "Roboto", sans-serif;
+}
+
+#products {
+  text-align: center;
+  margin: 20px;
+}
+
+#products li {
+  list-style-type: none;
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+#products ol li:nth-child(4) {
+  color: red;
+  background-color: #123123;
+}
+
+#contact {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact label {
+  font-size: 20px;
+  color: firebrick;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact input {
+  margin: 10px;
+  padding: 15px;
+  color: blueviolet;
+  font-weight: bold;
+  border-color: darkgreen;
+  border-radius: 5px;
+  border-width: 3px;
+  font-family: "Roboto", sans-serif;
+}
+#contact textarea {
+  margin: 10px;
+  padding: 15px;
+  color: blueviolet;
+  font-weight: bold;
+  border-color: darkgreen;
+  border-radius: 5px;
+  border-width: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #123123;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  color: aquamarine;
+  text-decoration: underline;
+  text-transform: uppercase;
+}

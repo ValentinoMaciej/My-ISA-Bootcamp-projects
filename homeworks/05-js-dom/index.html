@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie 05-JS-DOM</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- lewa sekcja // left section-->
+      <section class="contain">
+        <article class="input-contain">
+          <form class="receipt-input">
+            <label for="receipt-amount">Rachunek</label>
+            <input
+              id="receipt-amount-id"
+              class="receipt-blank"
+              type="number"
+              name="receipt"
+              placeholder="0"
+            />
+          </form>
+          <form class="percentage-tip">
+            <label>Napiwek %</label>
+            <div class="percentage-buttons">
+              <button class="click-button button-5" type="button" value="0.05">
+                5 %
+              </button>
+              <button class="click-button button-10" type="button" value="0.10">
+                10 %
+              </button>
+              <button class="click-button button-15" type="button" value="0.15">
+                15 %
+              </button>
+            </div>
+          </form>
+          <form class="people">
+            <label for="number-people"
+              >Ilość osób: <span>Nie może być 0</span></label
+            >
+            <input
+              id="people-blank-id"
+              class="people-blank"
+              type="number"
+              name="number-people-name"
+              placeholder="0"
+            />
+          </form>
+          <button class="calculate" disabled>Kalkuluj</button>
+        </article>
+
+        <!-- prawa sekcja // right section -->
+        <article class="calculate-contain">
+          <div class="calculate-tip">
+            <div>
+              <p class="calculate-description">Wysokość napiwków</p>
+              <p class="calculate-description">/ na osobę</p>
+            </div>
+            <p class="sum sum-tip">PLN 0.00</p>
+          </div>
+          <div class="calculate-all">
+            <div>
+              <p class="calculate-description">Suma</p>
+              <p class="calculate-description">/ na osobę</p>
+            </div>
+            <p class="sum sum-all">PLN 0.00</p>
+          </div>
+          <button class="reset-button" disabled>Resetuj</button>
+        </article>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
