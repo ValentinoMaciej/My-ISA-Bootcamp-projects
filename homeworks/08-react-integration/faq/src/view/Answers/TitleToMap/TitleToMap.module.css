@@ -1,0 +1,22 @@
+.titles {
+  color: hsl(237, 12%, 33%);
+  font-weight: 400;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.titles:hover {
+  font-weight: 600;
+}
+
+.description {
+  color: hsl(240, 6%, 50%);
+  padding: 15px 0px;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.TitleToMapArticle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
